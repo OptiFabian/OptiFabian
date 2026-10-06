@@ -27,10 +27,7 @@ A Branch-Price-and-Cut algorithm for vehicle routing with a mixed fleet of profe
 A Large Neighborhood Search with simulated annealing for the vehicle routing problem with time windows, where some routes go to crowd drivers whose availability is uncertain and a professional vehicle serves the route at a higher price if the driver does not show up. It minimizes the expected total cost and is written in plain Java, tested on Solomon instances.
 
 **[Discretization-for-VRPTW](https://github.com/OptiFabian/Discretization-for-VRPTW)**
-An implementation of a compact formulation for the VRP with time windows from "A New Class of Compact Formulations for Vehicle Routing Problems." Short local-area routes are built with a dynamic-programming labeling algorithm, and demand and time are split into buckets that are refined until the LP bound is tight. Julia with JuMP and Gurobi, tested on Solomon instances.
-
-**[MATH-265](https://github.com/OptiFabian/MATH-265)**
-Python teaching material for the EPFL course Introduction to Optimization and Operations Research, where I was Lead Teaching Assistant. Jupyter notebooks introduce Python basics, NumPy and linear algebra, NetworkX, pandas and Matplotlib, alongside a Python cheat sheet.
+My Julia/JuMP implementation of the LA-Discretization method of Mandal, Regan, Rousseau and Yarkony (2024), an exact compact formulation for the vehicle routing problem with time windows. It runs on the free HiGHS solver and reaches the proven optima on the tested Solomon instances.
 
 ## Selected publications
 
